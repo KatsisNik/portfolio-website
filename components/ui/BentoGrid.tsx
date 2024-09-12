@@ -49,8 +49,8 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const leftLists = ["ReactJS", "Express", "Typescript", "TailwindCSS", "AWS", "Django"];
+  const rightLists = ["VueJS", "NextJS", "PostgreSQL", "TensorFlow", "PyTorch", "Pandas"];
 
   const [copied, setCopied] = useState(false);
 
@@ -135,8 +135,8 @@ export const BentoGridItem = ({
           {id === 2 && <GridGlobe />}
 
           {/* Tech stack list div */}
-          {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
+          {id === 1 && (
+            <div className="flex gap-1 lg:gap-5 w-fit absolute right-[3rem] lg:right-[5rem]">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {leftLists.map((item, i) => (

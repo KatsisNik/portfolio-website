@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="flex justify-center relative my-20 z-10">
             <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vs] flex flex-col items-center justify-center">
                 <h2 className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-                    Dynamic Web Magic with Next.js
+                Advanced Web Apps with Full-Stack & ML Expertise
                 </h2>
                 <TextGenerateEffect 
                     className="text-center text-[40px] md:text-5xl lg:text-6xl"
@@ -29,10 +29,10 @@ const Hero = () => {
                 />
 
                 <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-1xl'>
-                    Hi, I&apos;m Nick, a Next.js Developer with Machine Learning background based in UK
+                    Hi, I&apos;m Nick, a Full-Stack Developer specializing in Next.js with a strong background in Machine Learning, based in the UK. I build dynamic and data-driven web applications.
                 </p>
-                <a href="#about" >
-                    <UnapologeticButton title="Show my Work" 
+                <a href="#projects" >
+                    <UnapologeticButton title="Explore My Projects" 
                     icon={<FaLocationArrow />}
                     position='right'
                     />
