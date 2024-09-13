@@ -6,8 +6,8 @@ const Experience = () => {
   return (
     <div className="py-20" id="experience">
         <h1 className="heading">
-            My <span className="text-purple">
-                work experience
+        Curated <span className="text-purple">
+            Experiences
             </span>
         </h1>
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">

@@ -18,9 +18,9 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
+      title: "Adaptable and comfortable working with global, distributed teams",
       description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+      className: "lg:col-span-2 md:col-span-3 md:row-span-2 ",
       imgClassName: "",
       titleClassName: "justify-start",
       img: "",
@@ -28,17 +28,17 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "I prioritize team collaboration and open communication ",
+      title: "Building success through open collaboration and clear communication",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "opacity-60",
+      imgClassName: "opacity-50",
       titleClassName: "justify-end",
       img: "/b1.svg",
       spareImg: "",
     },
     {
       id: 4,
-      title: "Machine Learning enthusiast with a passion for development.",
+      title: "Machine Learning enthusiast committed to innovative web development.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -49,17 +49,17 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
+      title: "Developing a Pseudo-3D Game Engine",
+      description: "Currently building a pseudo-3D game engine inspired by early games like Doom and Daggerfall. Collaborating with a friend to bring retro-style gaming into the modern era, blending classic mechanics with modern web technologies.",
       className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
+      imgClassName: "absolute right-5 bottom-5 md:w-96 w-60 opacity-30 md:opacity-60 lg:opacity-70",
+      titleClassName: "justify-center md:justify-start lg:justify-center lg:gap-y-6",
       img: "/b5.svg",
       spareImg: "/grid.svg",
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Interested in collaborating? Let’s build something great together!",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -72,36 +72,21 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Animated Apple Iphone 3D Website",
+      des: "A dynamic recreation of the Apple iPhone 15 Pro website, featuring immersive GSAP animations and Three.js 3D effects to create a highly interactive and engaging user experience.",
+      img: "/iphone15_clone.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg", "/re.svg"],
+      link: "https://github.com/KatsisNik/apple_website_project",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Brainwave - AI Chatting (Front-End Only)",
+      des: "Designed a responsive front-end for an AI chatting platform, showcasing intuitive interfaces. Built with scalability in mind, focusing on front-end development.",
+      img: "/brainwave_project.png",
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg"],
+      link: "https://github.com/KatsisNik/brainwave-website-project",
     },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },
+    
   ];
   
   export const testimonials = [
@@ -173,31 +158,45 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Machine Learning Engineer Intern – Optimum Health Ltd",
+      desc: "Developed and fine-tuned BERT-based models for multi-label emotion classification. Integrated models into Microsoft Azure as callable functions for the company’s product.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
-    },
-    {
-      id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      title: "Research Assistant – Imperial College London",
+      desc: "Worked on behavior classification using video input. Implemented Mask R-CNN and 3D CNN architectures for primate behavior recognition, experimenting with pre-training techniques.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
+      id: 3,
+      title: "Deep Reinforcement Learning – Maze Navigation Project",
+      desc: "Developed a DQN-based reinforcement learning agent to solve maze navigation tasks within a 10-minute training window.",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp2.svg",
+    },
+    {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "Online Experiment Database – Web App Project",
+      desc: "Built a web application to unify laboratory data, using a PostgreSQL back-end and a Java-based front-end.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
+    },
+    {
+      id: 5,
+      title: "Software Engineer – Mitigate LTD",
+      desc: "Optimized back-end using Django, integrated Amadeus API for travel recommendations, and developed a web application with a recommendation system based on autoencoder technology.",
+      className: "md:col-span-2",
+      thumbnail: "/exp4.svg",
+    },
+    {
+      id: 6,
+      title: "UROP – Imperial College London",
+      desc: "Developed a deep CNN for estimating left ventricle volume from MRI images. Modified R-CNN and YOLO algorithms to output scalar data, achieving accurate predictions on test sets.",
+      className: "md:col-span-2",
+      thumbnail: "/exp3.svg",
     },
   ];
   
@@ -205,13 +204,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
+      link: "https://github.com/KatsisNik"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/nikolaos-katsis-b68417203/"
     },
   ];
