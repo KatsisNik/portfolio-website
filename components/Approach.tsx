@@ -13,7 +13,7 @@ const Approach = () => {
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card title="Brainstorming & Planning" 
           icon={<AceternityIcon order="Phase 1"/>}
-          description="I map out the project's goals taking into account parameters such as target audience and desired functionalities. I come up with a stracture/archetecture that is inovative and achieves the project's goals"
+          description="I define project goals, considering key factors like target audience and functionality requirements. I create an innovative structure and architecture tailored to meet the project's objectives efficiently."
           >
           
           <CanvasRevealEffect
@@ -23,7 +23,7 @@ const Approach = () => {
         </Card>
         <Card title="Creating a demo/MVP" 
           icon={<AceternityIcon order="Phase 2"/>}
-          description="I develop a proof of concept. Working on having a product that satisfies the requirements of the project and try to optimise it as much as possible."
+          description="I develop a proof of concept, ensuring the product aligns with project requirements. I continuously optimize for performance and scalability."
           >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,7 +39,7 @@ const Approach = () => {
         </Card>
         <Card title="Finalising the Product" 
           icon={<AceternityIcon order="Phase 3"/>}
-          description="Finetuning the demo, adding additional desired features and ensuring that it perfectly fits all the project requirements"
+          description="I refine the demo, integrate additional features, and ensure the final product meets all project requirements seamlessly."
         >
           <CanvasRevealEffect
             animationSpeed={3}
