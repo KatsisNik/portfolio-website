@@ -158,41 +158,48 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
+      title: "Full-Stack Developer Intern – Optimum Health Ltd",
+      desc: "Utilizing Next.js, Redux, Tailwind CSS, and more to develop new features, and refactor code for future scalability. Working in a fast-paced environment, solving complex challenges while improving code quality.",
+      className: "md:col-span-2",
+      thumbnail: "/exp4.svg",
+    },
+    {
+      id: 2,
       title: "Machine Learning Engineer Intern – Optimum Health Ltd",
       desc: "Developed and fine-tuned BERT-based models for multi-label emotion classification. Integrated models into Microsoft Azure as callable functions for the company’s product.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
-      id: 2,
+      id: 3,
       title: "Research Assistant – Imperial College London",
       desc: "Worked on behavior classification using video input. Implemented Mask R-CNN and 3D CNN architectures for primate behavior recognition, experimenting with pre-training techniques.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
-      id: 3,
+      id: 4,
       title: "Deep Reinforcement Learning – Maze Navigation Project",
       desc: "Developed a DQN-based reinforcement learning agent to solve maze navigation tasks within a 10-minute training window.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
     {
-      id: 4,
+      id: 5,
       title: "Online Experiment Database – Web App Project",
       desc: "Built a web application to unify laboratory data, using a PostgreSQL back-end and a Java-based front-end.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
     {
-      id: 5,
+      id: 6,
       title: "Software Engineer – Mitigate LTD",
       desc: "Optimized back-end using Django, integrated Amadeus API for travel recommendations, and developed a web application with a recommendation system based on autoencoder technology.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
     {
-      id: 6,
+      id: 7,
       title: "UROP – Imperial College London",
       desc: "Developed a deep CNN for estimating left ventricle volume from MRI images. Modified R-CNN and YOLO algorithms to output scalar data, achieving accurate predictions on test sets.",
       className: "md:col-span-2",
