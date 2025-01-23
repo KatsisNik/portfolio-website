@@ -158,7 +158,7 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Full-Stack Developer Intern – Optimum Health Ltd",
+      title: "Full-Stack Developer – Optimum Health Ltd",
       desc: "Utilizing Next.js, Redux, Tailwind CSS, and more to develop new features, and refactor code for future scalability. Working in a fast-paced environment, solving complex challenges while improving code quality.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
